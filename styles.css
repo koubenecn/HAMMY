@@ -1,0 +1,104 @@
+
+
+.container {
+  display: grid;
+  height: calc(100vh - 4em);
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 50% 50%;
+
+  background-image: url(bcktile.png);
+  background-repeat: repeat;
+  margin: 2em;
+  padding: 0em;
+}
+
+.item-a {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding:2em;
+  align-self:center;
+    text-align: center;
+}
+
+.item-b {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+  padding: 2em;
+}
+
+.item-b:hover {
+/*    background: red;*/
+}
+
+.item-c {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  align-self: center;
+  padding: 2em;
+}
+
+.item-d {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+  padding: 2em;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    line-height: 1.5em;
+
+}
+
+h1.main {
+    font-size: 5em;
+    line-height: 1em;
+    text-align:center;
+
+}
+
+.playful {
+  color: #000;
+  text-shadow: 1px 1px #D79922, 2px 2px #D79922;
+}
+
+.mainimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+h2 {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    color: #000;
+    margin: 2em;
+}
+a {font-size: 1.5em;
+  color: #000;
+}
+
+.stripe-1 {
+
+}
